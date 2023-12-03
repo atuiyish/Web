@@ -1,0 +1,124 @@
+/* Titre centré sur la page d'accueil. */
+h1{
+    font-family: "gardez", sans-serif;
+    font-weight: 800;
+    text-align: center;
+}
+/* Logo 1 qui encadre le titre a gauche. */
+.Img1{
+    width: 2%;
+    height: auto;
+    position: absolute;
+    top: 13em;
+    left: 40em;
+}
+/* Logo 2 qui encadre le titre a droite. */
+.Img2{
+    width: 2%;
+    height: auto;
+    position: absolute;
+    top: 13em;
+    right: 40em;
+}
+/* Déplace la 1er zone de text a gauche. */
+.Pos_Text1{
+    position: absolute;
+    left: 2.5%;
+    bottom: 20%;
+    width: 20%;
+}
+/* Déplace la 2eme zone de text a droite. */
+.Pos_Text2{
+    position: absolute;
+    right: 2.5%;
+    bottom: 20%;
+    width: 20%;
+
+}
+/* Cadre 4 zone de text avec une simple ligne. */
+#Text1, #Text2, #Text3, #Text4{
+    border-bottom: 3px black solid;
+    border-left: 3px black solid;
+    border-right:  3px black solid;
+    border-top: 3px black solid;
+    padding: 1.5em;
+}
+/* Texte cadré avec une ligne et un radius. */
+#Text_Radiu{
+    width: 40em;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    border-bottom: 3px black solid;
+    border-left: 3px black solid;
+    border-right:  3px black solid;
+    border-top: 3px black solid;
+    border-radius: 1em 1em 1em 1em;
+    padding: 1.5em;
+}
+/* La forme des texts dans le menu. */
+ul{
+  list-style-type: none;
+  width: 7em;
+  text-align:center;
+}
+li{
+    background: rgb(80, 117, 154);
+    font-size: 2em;
+    border-radius: 75% 25% 75% 25% / 0% 100% 0% 100% ;
+    box-shadow: 6px 6px 0px rgba(0, 0, 0,0.25);
+}
+li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    border-radius: 75% 25% 75% 25% / 0% 100% 0% 100% ;
+}
+li a:hover{
+    background-color: #ccc;
+}
+#Link_Social{
+    text-align: center;
+}
+p a{
+    text-decoration: none;
+    color: red;
+    font-size: 36px;
+}
+td, th{
+    border: 0.1em solid black;
+    font-weight: normal;
+}
+table{
+    border-collapse: collapse;
+}
+.TABLE{
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 8%;
+}
+thead{
+    font-size: 1.2em;
+}
+caption{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+#precisions{
+    width: 50em;
+    height: 10em;
+}
+fieldset{
+    width: 10em;
+    border-color: black;
+    border-style: dashed;
+    margin-left: 10em;
+    margin-top: 2em;
+}
+body{
+    background: url('image/\'La\ Nature.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>Page 2</title>
+        <link href="Index.html">
+        <link href="Style.css" rel="stylesheet">
+        <nav>
+            <ul>
+                <li><a href="Index.html">Accueil</li></a>
+                <li><a href="Page1.html">Page 1</li></a>
+                <li><a href="Page3.html">Page 3</li></a>
+                <li><a href="Page4.html">Page 4</li></a>
+            </ul> 
+        </nav>
+    </head>
+    <body>
+        <!-- La balise form crée un formulaire. -->
+        <!-- L'attribut method indique par quel moyen les données vont être envoyées. -->
+        <!-- L'attribut action est associer avec le bouton envoyer, lorsque le bouton sera activer alors l'action ce produira. -->
+        <form method="get" action="https://outlook.office.com/mail/">
+            <!-- La balise fieldset est utilisé afin de regrouper plusieurs contrôles interactifs. -->
+            <fieldset>
+                <!-- La balise legend représente une légende pour son contenu. -->
+                <legend>Vos coordonnées</legend>
+                <!-- La balise label ajoute un champ de libellé. -->
+                <!-- On lie le label avec le champ avec l'attribut for. -->
+                <label for="nom">Quel est votre nom ?</label>
+                <!-- L'attribut autofocus place automatiquement le curseur dans l'un des champs du formulaire. -->
+                <!-- L'attribut required rend un champ obligatoire. -->
+                <input type="text" name="nom" id="nom" autofocus required>
+                <label for="prenom">Quel est votre prénom ?</label>
+                <input type="text" name="prenom" id="prenom" required>
+                <label for="email">Quel est votre e-mail ?</label>
+                <input type="email" name="email" id="email" required>
+             </fieldset>
+             <fieldset>
+                <legend>Votre demande</legend>
+                <p>
+                    <!-- L'attribut textarea ajoute une zone de texte multiligne. -->
+                   <textarea name="precisions" id="precisions" cols="40" rows="4"></textarea>
+                </p>
+                <p>
+                    <!-- Avec type="submit" le visiteur sera conduit à la page indiquée dans l'attribut  action  du formulaire. -->
+                    <input type="submit" value="Envoyer">
+                </p>
+             </fieldset>
+        </form>
+    </body>
+</html>
