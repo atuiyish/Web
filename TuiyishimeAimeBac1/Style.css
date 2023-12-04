@@ -57,58 +57,70 @@ h1{
     border-radius: 1em 1em 1em 1em;
     padding: 1.5em;
 }
-/* La forme des texts dans le menu. */
+/* La forme des texts dans le menu sous forme de liste. */
 ul{
   list-style-type: none;
   width: 7em;
   text-align:center;
 }
+/* La mise en forme des éléments dans la liste */
 li{
     background: rgb(80, 117, 154);
     font-size: 2em;
     border-radius: 75% 25% 75% 25% / 0% 100% 0% 100% ;
     box-shadow: 6px 6px 0px rgba(0, 0, 0,0.25);
 }
+/* La mise en forme des liens dans la liste */
 li a {
     text-decoration: none;
     color: black;
     display: block;
     border-radius: 75% 25% 75% 25% / 0% 100% 0% 100% ;
 }
+/* La mise en forme des éléments dans la liste lorsque la souris passe dessus */
 li a:hover{
     background-color: #ccc;
 }
+/* La mise en forme des liens pour les réseaux */
 #Link_Social{
     text-align: center;
 }
+/* La mise en forme du text des liens pour les réseaux */
 p a{
     text-decoration: none;
     color: red;
     font-size: 36px;
 }
-td, th{
+/* La mise en forme des éléments du tableau */
+th{
     border: 0.1em solid black;
     font-weight: normal;
 }
+/* Bordure du tableau rapprocher */
 table{
     border-collapse: collapse;
 }
+/* Emplacement du tableau sur la page */
 .TABLE{
     margin-right: auto;
     margin-left: auto;
     margin-top: 8%;
 }
+/* La mise en forme de l'en-tête du tableau */
 thead{
     font-size: 1.2em;
 }
+/* La mise forme du titre de tableau */
 caption{
     font-size: 1.5em;
     font-weight: bold;
 }
+/* La mise en forme de la zone de text */
 #precisions{
     width: 50em;
     height: 10em;
 }
+/* La mise en forme de l'ensembles de champs */
 fieldset{
     width: 10em;
     border-color: black;
@@ -116,8 +128,9 @@ fieldset{
     margin-left: 10em;
     margin-top: 2em;
 }
+/* La mise en forme de l'arrière plan du site */
 body{
-    background: url('image/\'La\ Nature.jpg');
+    background: url('image/La\ Nature.jpg');
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
